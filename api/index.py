@@ -1641,7 +1641,7 @@ def greet():
         api_name="/predict",
         )
         res = int(float(result))
-        endpoint = "https://adr-tezos.vercel.app/blockchain"
+        endpoint = "https://hd5311f5f5f94f88737e.free.beeceptor.com/blockchain"
         
         payload = {
             "drug1": request.json['drug1'],
