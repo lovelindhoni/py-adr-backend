@@ -1640,8 +1640,9 @@ def greet():
         sideEffect,
         api_name="/predict",
         )
+        result = int(result)
         endpoint = "https://adr-tezos.vercel.app/blockchain"
-
+        
         payload = {
             "drug1": request.json['drug1'],
             "drug2": request.json['drug2'],
