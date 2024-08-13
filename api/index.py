@@ -1647,7 +1647,7 @@ def greet():
             "drug1": request.json['drug1'],
             "drug2": request.json['drug2'],
             "sideEffect": request.json["sideEffect"],
-            "result": result
+            "score": result
         }
 
         response = requests.post(endpoint, json=payload)
